@@ -24,7 +24,23 @@ main {
   height: 500px;
   width: 90%;
   background-color: lightgrey;
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
 }
+
+.card {
+  height: 200px;
+  width: 70%;
+  background-color: brown;
+}
+
+.card--header {
+  height: 200px;
+  width: 70%;
+  background-color: rgb(216, 200, 200);
+}
+
 
 footer {
   background-color: grey;
